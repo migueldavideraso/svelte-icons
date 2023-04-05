@@ -1,0 +1,1 @@
+\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <path d='M18 5l3 3l-3 3'></path>\n  <path d='M3 18h5l7 -10h6'></path>\n

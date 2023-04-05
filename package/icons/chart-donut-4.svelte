@@ -1,0 +1,1 @@
+\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <path d='M8.848 14.667l-3.348 2.833'></path>\n  <path d='M12 3v5m4 4h5'></path>\n  <circle cx='12' cy='12' r='9'></circle>\n  <path d='M14.219 15.328l2.781 4.172'></path>\n  <circle cx='12' cy='12' r='4'></circle>\n

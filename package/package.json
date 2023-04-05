@@ -1,0 +1,13 @@
+{
+	"name": "@migueleraso/svelte-icons",
+	"description": "Table Icons for svelte.js",
+	"private": false,
+	"version": "1.0.0",
+	"author": "migueleraso",
+	"main": "index.js",
+	"svelte": "Main.svelte",
+	"keywords": [ "svelte", "icons" ],
+	"publishConfig": {
+		"access": "public"
+	}
+}

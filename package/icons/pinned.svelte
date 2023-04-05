@@ -1,0 +1,1 @@
+\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <path d='M9 4v6l-2 4v2h10v-2l-2 -4v-6'></path>\n  <line x1='12' y1='16' x2='12' y2='21'></line>\n  <line x1='8' y1='4' x2='16' y2='4'></line>\n
