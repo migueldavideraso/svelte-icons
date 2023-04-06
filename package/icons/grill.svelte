@@ -1,1 +1,15 @@
-\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <path d='M19 8h-14a6 6 0 0 0 6 6h2a6 6 0 0 0 5.996 -5.775l.004 -.225z'></path>\n  <path d='M17 20a2 2 0 1 1 0 -4a2 2 0 0 1 0 4z'></path>\n  <path d='M15 14l1 2'></path>\n  <path d='M9 14l-3 6'></path>\n  <path d='M15 18h-8'></path>\n  <path d='M15 5v-1'></path>\n  <path d='M12 5v-1'></path>\n  <path d='M9 5v-1'></path>\n
+<script>
+
+	import Icon from '../Icon.svelte'
+
+	export let size = null
+	export let strokeSize = null
+	export let stroke = null
+
+	$: values = { size, strokeSize, stroke }
+
+</script>
+
+<Icon {values} >
+	\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <path d='M19 8h-14a6 6 0 0 0 6 6h2a6 6 0 0 0 5.996 -5.775l.004 -.225z'></path>\n  <path d='M17 20a2 2 0 1 1 0 -4a2 2 0 0 1 0 4z'></path>\n  <path d='M15 14l1 2'></path>\n  <path d='M9 14l-3 6'></path>\n  <path d='M15 18h-8'></path>\n  <path d='M15 5v-1'></path>\n  <path d='M12 5v-1'></path>\n  <path d='M9 5v-1'></path>\n
+</Icon>

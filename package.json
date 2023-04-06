@@ -13,5 +13,8 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "svelte": "^3.55.1",
     "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@migueleraso/svelte-icons": "^2.0.2"
   }
 }

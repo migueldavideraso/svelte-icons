@@ -1,6 +1,11 @@
 <script>
 
 	import Icon from './Icon.svelte'
+	import ChevronRightIcon from '@migueleraso/svelte-icons/icons/chevron-right.svelte'
+	import CheckIcon from '@migueleraso/svelte-icons/icons/check.svelte'
+	import XIcon from '@migueleraso/svelte-icons/icons/x.svelte'
+	import TrashIcon from '@migueleraso/svelte-icons/icons/trash.svelte'
+	import SearchIcon from '@migueleraso/svelte-icons/icons/search.svelte'
 
 </script>
 
@@ -17,15 +22,16 @@
 			<Icon
 				name="chevron-right"
 				strokeSize={1}
+				Component={ChevronRightIcon}
 			/>
 
-			<Icon name="check" />
+			<Icon name="check" Component={CheckIcon} />
 
-			<Icon name="x" />
+			<Icon name="x" Component={XIcon} />
 
-			<Icon name="trash" />
+			<Icon name="trash" Component={TrashIcon} />
 
-			<Icon name="search" />
+			<Icon name="search" Component={SearchIcon} />
 
 		</section>
 

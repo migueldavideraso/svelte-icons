@@ -1,11 +1,12 @@
+
+
 <script>
 
-	import { Icon } from '../package/index.js'
-
+	export let Component = null
 	export let name = ''
-	export let size = 45
-	export let strokeSize = 3
-	export let stroke = "#2c3e50"
+	export let size = null
+	export let strokeSize = null
+	export let stroke = null
 
 </script>
 
@@ -17,8 +18,7 @@
 	</header>
 
 	<main>
-		<Icon
-			{name}
+		<Component
 			{size}
 			{strokeSize}
 			{stroke}

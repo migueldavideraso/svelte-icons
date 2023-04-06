@@ -1,1 +1,15 @@
-\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <rect x='4' y='4' width='16' height='16' rx='2'></rect>\n  <line x1='8' y1='4' x2='8' y2='20'></line>\n  <line x1='16' y1='4' x2='16' y2='20'></line>\n  <line x1='4' y1='8' x2='8' y2='8'></line>\n  <line x1='4' y1='16' x2='8' y2='16'></line>\n  <line x1='4' y1='12' x2='20' y2='12'></line>\n  <line x1='16' y1='8' x2='20' y2='8'></line>\n  <line x1='16' y1='16' x2='20' y2='16'></line>\n
+<script>
+
+	import Icon from '../Icon.svelte'
+
+	export let size = null
+	export let strokeSize = null
+	export let stroke = null
+
+	$: values = { size, strokeSize, stroke }
+
+</script>
+
+<Icon {values} >
+	\n  <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>\n  <rect x='4' y='4' width='16' height='16' rx='2'></rect>\n  <line x1='8' y1='4' x2='8' y2='20'></line>\n  <line x1='16' y1='4' x2='16' y2='20'></line>\n  <line x1='4' y1='8' x2='8' y2='8'></line>\n  <line x1='4' y1='16' x2='8' y2='16'></line>\n  <line x1='4' y1='12' x2='20' y2='12'></line>\n  <line x1='16' y1='8' x2='20' y2='8'></line>\n  <line x1='16' y1='16' x2='20' y2='16'></line>\n
+</Icon>
